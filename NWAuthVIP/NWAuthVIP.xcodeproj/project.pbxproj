@@ -7,84 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8117095422E4902A005B225C /* NWAuthVIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8117094A22E4902A005B225C /* NWAuthVIP.framework */; };
-		8117095922E4902A005B225C /* NWAuthVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117095822E4902A005B225C /* NWAuthVIPTests.swift */; };
-		8117095B22E4902A005B225C /* NWAuthVIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 8117094D22E4902A005B225C /* NWAuthVIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8117096522E49114005B225C /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117096422E49114005B225C /* Test.swift */; };
+		81AEF72F22E6F9E000AE040C /* NWAuthVIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */; };
+		81AEF73422E6F9E000AE040C /* NWAuthVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AEF73322E6F9E000AE040C /* NWAuthVIPTests.swift */; };
+		81AEF73622E6F9E000AE040C /* NWAuthVIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AEF72822E6F9E000AE040C /* NWAuthVIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8117095522E4902A005B225C /* PBXContainerItemProxy */ = {
+		81AEF73022E6F9E000AE040C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8117094122E4902A005B225C /* Project object */;
+			containerPortal = 81AEF71C22E6F9E000AE040C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8117094922E4902A005B225C;
+			remoteGlobalIDString = 81AEF72422E6F9E000AE040C;
 			remoteInfo = NWAuthVIP;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8117094A22E4902A005B225C /* NWAuthVIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NWAuthVIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8117094D22E4902A005B225C /* NWAuthVIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWAuthVIP.h; sourceTree = "<group>"; };
-		8117094E22E4902A005B225C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8117095322E4902A005B225C /* NWAuthVIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWAuthVIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8117095822E4902A005B225C /* NWAuthVIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWAuthVIPTests.swift; sourceTree = "<group>"; };
-		8117095A22E4902A005B225C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8117096422E49114005B225C /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NWAuthVIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AEF72822E6F9E000AE040C /* NWAuthVIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWAuthVIP.h; sourceTree = "<group>"; };
+		81AEF72922E6F9E000AE040C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81AEF72E22E6F9E000AE040C /* NWAuthVIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWAuthVIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AEF73322E6F9E000AE040C /* NWAuthVIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWAuthVIPTests.swift; sourceTree = "<group>"; };
+		81AEF73522E6F9E000AE040C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8117094722E4902A005B225C /* Frameworks */ = {
+		81AEF72222E6F9E000AE040C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8117095022E4902A005B225C /* Frameworks */ = {
+		81AEF72B22E6F9E000AE040C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8117095422E4902A005B225C /* NWAuthVIP.framework in Frameworks */,
+				81AEF72F22E6F9E000AE040C /* NWAuthVIP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8117094022E4902A005B225C = {
+		81AEF71B22E6F9E000AE040C = {
 			isa = PBXGroup;
 			children = (
-				8117094C22E4902A005B225C /* NWAuthVIP */,
-				8117095722E4902A005B225C /* NWAuthVIPTests */,
-				8117094B22E4902A005B225C /* Products */,
+				81AEF72722E6F9E000AE040C /* NWAuthVIP */,
+				81AEF73222E6F9E000AE040C /* NWAuthVIPTests */,
+				81AEF72622E6F9E000AE040C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8117094B22E4902A005B225C /* Products */ = {
+		81AEF72622E6F9E000AE040C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8117094A22E4902A005B225C /* NWAuthVIP.framework */,
-				8117095322E4902A005B225C /* NWAuthVIPTests.xctest */,
+				81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */,
+				81AEF72E22E6F9E000AE040C /* NWAuthVIPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8117094C22E4902A005B225C /* NWAuthVIP */ = {
+		81AEF72722E6F9E000AE040C /* NWAuthVIP */ = {
 			isa = PBXGroup;
 			children = (
-				8117094D22E4902A005B225C /* NWAuthVIP.h */,
-				8117094E22E4902A005B225C /* Info.plist */,
-				8117096422E49114005B225C /* Test.swift */,
+				81AEF72822E6F9E000AE040C /* NWAuthVIP.h */,
+				81AEF72922E6F9E000AE040C /* Info.plist */,
 			);
 			path = NWAuthVIP;
 			sourceTree = "<group>";
 		};
-		8117095722E4902A005B225C /* NWAuthVIPTests */ = {
+		81AEF73222E6F9E000AE040C /* NWAuthVIPTests */ = {
 			isa = PBXGroup;
 			children = (
-				8117095822E4902A005B225C /* NWAuthVIPTests.swift */,
-				8117095A22E4902A005B225C /* Info.plist */,
+				81AEF73322E6F9E000AE040C /* NWAuthVIPTests.swift */,
+				81AEF73522E6F9E000AE040C /* Info.plist */,
 			);
 			path = NWAuthVIPTests;
 			sourceTree = "<group>";
@@ -92,25 +89,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8117094522E4902A005B225C /* Headers */ = {
+		81AEF72022E6F9E000AE040C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8117095B22E4902A005B225C /* NWAuthVIP.h in Headers */,
+				81AEF73622E6F9E000AE040C /* NWAuthVIP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8117094922E4902A005B225C /* NWAuthVIP */ = {
+		81AEF72422E6F9E000AE040C /* NWAuthVIP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8117095E22E4902A005B225C /* Build configuration list for PBXNativeTarget "NWAuthVIP" */;
+			buildConfigurationList = 81AEF73922E6F9E000AE040C /* Build configuration list for PBXNativeTarget "NWAuthVIP" */;
 			buildPhases = (
-				8117094522E4902A005B225C /* Headers */,
-				8117094622E4902A005B225C /* Sources */,
-				8117094722E4902A005B225C /* Frameworks */,
-				8117094822E4902A005B225C /* Resources */,
+				81AEF72022E6F9E000AE040C /* Headers */,
+				81AEF72122E6F9E000AE040C /* Sources */,
+				81AEF72222E6F9E000AE040C /* Frameworks */,
+				81AEF72322E6F9E000AE040C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -118,73 +115,72 @@
 			);
 			name = NWAuthVIP;
 			productName = NWAuthVIP;
-			productReference = 8117094A22E4902A005B225C /* NWAuthVIP.framework */;
+			productReference = 81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8117095222E4902A005B225C /* NWAuthVIPTests */ = {
+		81AEF72D22E6F9E000AE040C /* NWAuthVIPTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8117096122E4902A005B225C /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */;
+			buildConfigurationList = 81AEF73C22E6F9E000AE040C /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */;
 			buildPhases = (
-				8117094F22E4902A005B225C /* Sources */,
-				8117095022E4902A005B225C /* Frameworks */,
-				8117095122E4902A005B225C /* Resources */,
+				81AEF72A22E6F9E000AE040C /* Sources */,
+				81AEF72B22E6F9E000AE040C /* Frameworks */,
+				81AEF72C22E6F9E000AE040C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8117095622E4902A005B225C /* PBXTargetDependency */,
+				81AEF73122E6F9E000AE040C /* PBXTargetDependency */,
 			);
 			name = NWAuthVIPTests;
 			productName = NWAuthVIPTests;
-			productReference = 8117095322E4902A005B225C /* NWAuthVIPTests.xctest */;
+			productReference = 81AEF72E22E6F9E000AE040C /* NWAuthVIPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8117094122E4902A005B225C /* Project object */ = {
+		81AEF71C22E6F9E000AE040C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = iOS;
 				TargetAttributes = {
-					8117094922E4902A005B225C = {
+					81AEF72422E6F9E000AE040C = {
 						CreatedOnToolsVersion = 10.2.1;
-						LastSwiftMigration = 1020;
 					};
-					8117095222E4902A005B225C = {
+					81AEF72D22E6F9E000AE040C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 8117094422E4902A005B225C /* Build configuration list for PBXProject "NWAuthVIP" */;
+			buildConfigurationList = 81AEF71F22E6F9E000AE040C /* Build configuration list for PBXProject "NWAuthVIP" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8117094022E4902A005B225C;
-			productRefGroup = 8117094B22E4902A005B225C /* Products */;
+			mainGroup = 81AEF71B22E6F9E000AE040C;
+			productRefGroup = 81AEF72622E6F9E000AE040C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8117094922E4902A005B225C /* NWAuthVIP */,
-				8117095222E4902A005B225C /* NWAuthVIPTests */,
+				81AEF72422E6F9E000AE040C /* NWAuthVIP */,
+				81AEF72D22E6F9E000AE040C /* NWAuthVIPTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8117094822E4902A005B225C /* Resources */ = {
+		81AEF72322E6F9E000AE040C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8117095122E4902A005B225C /* Resources */ = {
+		81AEF72C22E6F9E000AE040C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,34 +190,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8117094622E4902A005B225C /* Sources */ = {
+		81AEF72122E6F9E000AE040C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8117096522E49114005B225C /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8117094F22E4902A005B225C /* Sources */ = {
+		81AEF72A22E6F9E000AE040C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8117095922E4902A005B225C /* NWAuthVIPTests.swift in Sources */,
+				81AEF73422E6F9E000AE040C /* NWAuthVIPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8117095622E4902A005B225C /* PBXTargetDependency */ = {
+		81AEF73122E6F9E000AE040C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8117094922E4902A005B225C /* NWAuthVIP */;
-			targetProxy = 8117095522E4902A005B225C /* PBXContainerItemProxy */;
+			target = 81AEF72422E6F9E000AE040C /* NWAuthVIP */;
+			targetProxy = 81AEF73022E6F9E000AE040C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8117095C22E4902A005B225C /* Debug */ = {
+		81AEF73722E6F9E000AE040C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +280,7 @@
 			};
 			name = Debug;
 		};
-		8117095D22E4902A005B225C /* Release */ = {
+		81AEF73822E6F9E000AE040C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,10 +338,9 @@
 			};
 			name = Release;
 		};
-		8117095F22E4902A005B225C /* Debug */ = {
+		81AEF73A22E6F9E000AE040C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -364,16 +358,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nermeen.tomoum.NWAuthVIP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8117096022E4902A005B225C /* Release */ = {
+		81AEF73B22E6F9E000AE040C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -396,10 +388,9 @@
 			};
 			name = Release;
 		};
-		8117096222E4902A005B225C /* Debug */ = {
+		81AEF73D22E6F9E000AE040C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPSQ6HX6XK;
 				INFOPLIST_FILE = NWAuthVIPTests/Info.plist;
@@ -415,10 +406,9 @@
 			};
 			name = Debug;
 		};
-		8117096322E4902A005B225C /* Release */ = {
+		81AEF73E22E6F9E000AE040C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPSQ6HX6XK;
 				INFOPLIST_FILE = NWAuthVIPTests/Info.plist;
@@ -437,34 +427,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8117094422E4902A005B225C /* Build configuration list for PBXProject "NWAuthVIP" */ = {
+		81AEF71F22E6F9E000AE040C /* Build configuration list for PBXProject "NWAuthVIP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8117095C22E4902A005B225C /* Debug */,
-				8117095D22E4902A005B225C /* Release */,
+				81AEF73722E6F9E000AE040C /* Debug */,
+				81AEF73822E6F9E000AE040C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8117095E22E4902A005B225C /* Build configuration list for PBXNativeTarget "NWAuthVIP" */ = {
+		81AEF73922E6F9E000AE040C /* Build configuration list for PBXNativeTarget "NWAuthVIP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8117095F22E4902A005B225C /* Debug */,
-				8117096022E4902A005B225C /* Release */,
+				81AEF73A22E6F9E000AE040C /* Debug */,
+				81AEF73B22E6F9E000AE040C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8117096122E4902A005B225C /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */ = {
+		81AEF73C22E6F9E000AE040C /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8117096222E4902A005B225C /* Debug */,
-				8117096322E4902A005B225C /* Release */,
+				81AEF73D22E6F9E000AE040C /* Debug */,
+				81AEF73E22E6F9E000AE040C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8117094122E4902A005B225C /* Project object */;
+	rootObject = 81AEF71C22E6F9E000AE040C /* Project object */;
 }

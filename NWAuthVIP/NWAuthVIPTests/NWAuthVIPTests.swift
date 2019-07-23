@@ -2,7 +2,7 @@
 //  NWAuthVIPTests.swift
 //  NWAuthVIPTests
 //
-//  Created by iOS on 7/21/19.
+//  Created by iOS on 7/23/19.
 //  Copyright © 2019 iOS. All rights reserved.
 //
 
