@@ -7,26 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81AEF72F22E6F9E000AE040C /* NWAuthVIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */; };
 		81AEF73622E6F9E000AE040C /* NWAuthVIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AEF72822E6F9E000AE040C /* NWAuthVIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		81AEF73022E6F9E000AE040C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 81AEF71C22E6F9E000AE040C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 81AEF72422E6F9E000AE040C;
-			remoteInfo = NWAuthVIP;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NWAuthVIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AEF72822E6F9E000AE040C /* NWAuthVIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWAuthVIP.h; sourceTree = "<group>"; };
 		81AEF72922E6F9E000AE040C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81AEF72E22E6F9E000AE040C /* NWAuthVIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWAuthVIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AEF73522E6F9E000AE040C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,14 +24,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81AEF72B22E6F9E000AE040C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81AEF72F22E6F9E000AE040C /* NWAuthVIP.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -52,7 +31,6 @@
 			isa = PBXGroup;
 			children = (
 				81AEF72722E6F9E000AE040C /* NWAuthVIP */,
-				81AEF73222E6F9E000AE040C /* NWAuthVIPTests */,
 				81AEF72622E6F9E000AE040C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */,
-				81AEF72E22E6F9E000AE040C /* NWAuthVIPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,14 +50,6 @@
 				81AEF72922E6F9E000AE040C /* Info.plist */,
 			);
 			path = NWAuthVIP;
-			sourceTree = "<group>";
-		};
-		81AEF73222E6F9E000AE040C /* NWAuthVIPTests */ = {
-			isa = PBXGroup;
-			children = (
-				81AEF73522E6F9E000AE040C /* Info.plist */,
-			);
-			path = NWAuthVIPTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,24 +84,6 @@
 			productReference = 81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		81AEF72D22E6F9E000AE040C /* NWAuthVIPTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81AEF73C22E6F9E000AE040C /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */;
-			buildPhases = (
-				81AEF72A22E6F9E000AE040C /* Sources */,
-				81AEF72B22E6F9E000AE040C /* Frameworks */,
-				81AEF72C22E6F9E000AE040C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				81AEF73122E6F9E000AE040C /* PBXTargetDependency */,
-			);
-			name = NWAuthVIPTests;
-			productName = NWAuthVIPTests;
-			productReference = 81AEF72E22E6F9E000AE040C /* NWAuthVIPTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -144,9 +95,6 @@
 				ORGANIZATIONNAME = iOS;
 				TargetAttributes = {
 					81AEF72422E6F9E000AE040C = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
-					81AEF72D22E6F9E000AE040C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -164,20 +112,12 @@
 			projectRoot = "";
 			targets = (
 				81AEF72422E6F9E000AE040C /* NWAuthVIP */,
-				81AEF72D22E6F9E000AE040C /* NWAuthVIPTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		81AEF72322E6F9E000AE040C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81AEF72C22E6F9E000AE040C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,22 +134,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81AEF72A22E6F9E000AE040C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		81AEF73122E6F9E000AE040C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 81AEF72422E6F9E000AE040C /* NWAuthVIP */;
-			targetProxy = 81AEF73022E6F9E000AE040C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		81AEF73722E6F9E000AE040C /* Debug */ = {
@@ -384,42 +309,6 @@
 			};
 			name = Release;
 		};
-		81AEF73D22E6F9E000AE040C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MPSQ6HX6XK;
-				INFOPLIST_FILE = NWAuthVIPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = nermeen.tomoum.NWAuthVIPTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		81AEF73E22E6F9E000AE040C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MPSQ6HX6XK;
-				INFOPLIST_FILE = NWAuthVIPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = nermeen.tomoum.NWAuthVIPTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -437,15 +326,6 @@
 			buildConfigurations = (
 				81AEF73A22E6F9E000AE040C /* Debug */,
 				81AEF73B22E6F9E000AE040C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		81AEF73C22E6F9E000AE040C /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				81AEF73D22E6F9E000AE040C /* Debug */,
-				81AEF73E22E6F9E000AE040C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
