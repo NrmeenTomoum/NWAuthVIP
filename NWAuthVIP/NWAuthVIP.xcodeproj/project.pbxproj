@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		81AEF72F22E6F9E000AE040C /* NWAuthVIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */; };
 		81AEF73622E6F9E000AE040C /* NWAuthVIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AEF72822E6F9E000AE040C /* NWAuthVIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81B2D5B022E86B73004FD37A /* NWAuthVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AEF73322E6F9E000AE040C /* NWAuthVIPTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +26,6 @@
 		81AEF72822E6F9E000AE040C /* NWAuthVIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWAuthVIP.h; sourceTree = "<group>"; };
 		81AEF72922E6F9E000AE040C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81AEF72E22E6F9E000AE040C /* NWAuthVIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWAuthVIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AEF73322E6F9E000AE040C /* NWAuthVIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWAuthVIPTests.swift; sourceTree = "<group>"; };
 		81AEF73522E6F9E000AE040C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +78,6 @@
 		81AEF73222E6F9E000AE040C /* NWAuthVIPTests */ = {
 			isa = PBXGroup;
 			children = (
-				81AEF73322E6F9E000AE040C /* NWAuthVIPTests.swift */,
 				81AEF73522E6F9E000AE040C /* Info.plist */,
 			);
 			path = NWAuthVIPTests;
@@ -201,7 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B2D5B022E86B73004FD37A /* NWAuthVIPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
