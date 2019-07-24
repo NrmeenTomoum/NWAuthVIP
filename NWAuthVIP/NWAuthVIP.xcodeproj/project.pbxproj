@@ -3,85 +3,85 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81AEF72F22E6F9E000AE040C /* NWAuthVIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */; };
-		81AEF73422E6F9E000AE040C /* NWAuthVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AEF73322E6F9E000AE040C /* NWAuthVIPTests.swift */; };
-		81AEF73622E6F9E000AE040C /* NWAuthVIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AEF72822E6F9E000AE040C /* NWAuthVIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		819B410322E8667800C200FD /* NWAuthVIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819B40F922E8667800C200FD /* NWAuthVIP.framework */; };
+		819B410822E8667800C200FD /* NWAuthVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B410722E8667800C200FD /* NWAuthVIPTests.swift */; };
+		819B410A22E8667800C200FD /* NWAuthVIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 819B40FC22E8667800C200FD /* NWAuthVIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		81AEF73022E6F9E000AE040C /* PBXContainerItemProxy */ = {
+		819B410422E8667800C200FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 81AEF71C22E6F9E000AE040C /* Project object */;
+			containerPortal = 819B40F022E8667800C200FD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 81AEF72422E6F9E000AE040C;
+			remoteGlobalIDString = 819B40F822E8667800C200FD;
 			remoteInfo = NWAuthVIP;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NWAuthVIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AEF72822E6F9E000AE040C /* NWAuthVIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWAuthVIP.h; sourceTree = "<group>"; };
-		81AEF72922E6F9E000AE040C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81AEF72E22E6F9E000AE040C /* NWAuthVIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWAuthVIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AEF73322E6F9E000AE040C /* NWAuthVIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWAuthVIPTests.swift; sourceTree = "<group>"; };
-		81AEF73522E6F9E000AE040C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819B40F922E8667800C200FD /* NWAuthVIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NWAuthVIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819B40FC22E8667800C200FD /* NWAuthVIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWAuthVIP.h; sourceTree = "<group>"; };
+		819B40FD22E8667800C200FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819B410222E8667800C200FD /* NWAuthVIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWAuthVIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		819B410722E8667800C200FD /* NWAuthVIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWAuthVIPTests.swift; sourceTree = "<group>"; };
+		819B410922E8667800C200FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		81AEF72222E6F9E000AE040C /* Frameworks */ = {
+		819B40F522E8667800C200FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81AEF72B22E6F9E000AE040C /* Frameworks */ = {
+		819B40FF22E8667800C200FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AEF72F22E6F9E000AE040C /* NWAuthVIP.framework in Frameworks */,
+				819B410322E8667800C200FD /* NWAuthVIP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		81AEF71B22E6F9E000AE040C = {
+		819B40EF22E8667800C200FD = {
 			isa = PBXGroup;
 			children = (
-				81AEF72722E6F9E000AE040C /* NWAuthVIP */,
-				81AEF73222E6F9E000AE040C /* NWAuthVIPTests */,
-				81AEF72622E6F9E000AE040C /* Products */,
+				819B40FB22E8667800C200FD /* NWAuthVIP */,
+				819B410622E8667800C200FD /* NWAuthVIPTests */,
+				819B40FA22E8667800C200FD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		81AEF72622E6F9E000AE040C /* Products */ = {
+		819B40FA22E8667800C200FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */,
-				81AEF72E22E6F9E000AE040C /* NWAuthVIPTests.xctest */,
+				819B40F922E8667800C200FD /* NWAuthVIP.framework */,
+				819B410222E8667800C200FD /* NWAuthVIPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		81AEF72722E6F9E000AE040C /* NWAuthVIP */ = {
+		819B40FB22E8667800C200FD /* NWAuthVIP */ = {
 			isa = PBXGroup;
 			children = (
-				81AEF72822E6F9E000AE040C /* NWAuthVIP.h */,
-				81AEF72922E6F9E000AE040C /* Info.plist */,
+				819B40FC22E8667800C200FD /* NWAuthVIP.h */,
+				819B40FD22E8667800C200FD /* Info.plist */,
 			);
 			path = NWAuthVIP;
 			sourceTree = "<group>";
 		};
-		81AEF73222E6F9E000AE040C /* NWAuthVIPTests */ = {
+		819B410622E8667800C200FD /* NWAuthVIPTests */ = {
 			isa = PBXGroup;
 			children = (
-				81AEF73322E6F9E000AE040C /* NWAuthVIPTests.swift */,
-				81AEF73522E6F9E000AE040C /* Info.plist */,
+				819B410722E8667800C200FD /* NWAuthVIPTests.swift */,
+				819B410922E8667800C200FD /* Info.plist */,
 			);
 			path = NWAuthVIPTests;
 			sourceTree = "<group>";
@@ -89,25 +89,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		81AEF72022E6F9E000AE040C /* Headers */ = {
+		819B40F622E8667800C200FD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AEF73622E6F9E000AE040C /* NWAuthVIP.h in Headers */,
+				819B410A22E8667800C200FD /* NWAuthVIP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		81AEF72422E6F9E000AE040C /* NWAuthVIP */ = {
+		819B40F822E8667800C200FD /* NWAuthVIP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81AEF73922E6F9E000AE040C /* Build configuration list for PBXNativeTarget "NWAuthVIP" */;
+			buildConfigurationList = 819B410D22E8667800C200FD /* Build configuration list for PBXNativeTarget "NWAuthVIP" */;
 			buildPhases = (
-				81AEF72022E6F9E000AE040C /* Headers */,
-				81AEF72122E6F9E000AE040C /* Sources */,
-				81AEF72222E6F9E000AE040C /* Frameworks */,
-				81AEF72322E6F9E000AE040C /* Resources */,
+				819B40F422E8667800C200FD /* Sources */,
+				819B40F522E8667800C200FD /* Frameworks */,
+				819B40F622E8667800C200FD /* Headers */,
+				819B40F722E8667800C200FD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,72 +115,74 @@
 			);
 			name = NWAuthVIP;
 			productName = NWAuthVIP;
-			productReference = 81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */;
+			productReference = 819B40F922E8667800C200FD /* NWAuthVIP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		81AEF72D22E6F9E000AE040C /* NWAuthVIPTests */ = {
+		819B410122E8667800C200FD /* NWAuthVIPTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81AEF73C22E6F9E000AE040C /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */;
+			buildConfigurationList = 819B411022E8667800C200FD /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */;
 			buildPhases = (
-				81AEF72A22E6F9E000AE040C /* Sources */,
-				81AEF72B22E6F9E000AE040C /* Frameworks */,
-				81AEF72C22E6F9E000AE040C /* Resources */,
+				819B40FE22E8667800C200FD /* Sources */,
+				819B40FF22E8667800C200FD /* Frameworks */,
+				819B410022E8667800C200FD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				81AEF73122E6F9E000AE040C /* PBXTargetDependency */,
+				819B410522E8667800C200FD /* PBXTargetDependency */,
 			);
 			name = NWAuthVIPTests;
 			productName = NWAuthVIPTests;
-			productReference = 81AEF72E22E6F9E000AE040C /* NWAuthVIPTests.xctest */;
+			productReference = 819B410222E8667800C200FD /* NWAuthVIPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		81AEF71C22E6F9E000AE040C /* Project object */ = {
+		819B40F022E8667800C200FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = iOS;
 				TargetAttributes = {
-					81AEF72422E6F9E000AE040C = {
-						CreatedOnToolsVersion = 10.2.1;
+					819B40F822E8667800C200FD = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
 					};
-					81AEF72D22E6F9E000AE040C = {
-						CreatedOnToolsVersion = 10.2.1;
+					819B410122E8667800C200FD = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 81AEF71F22E6F9E000AE040C /* Build configuration list for PBXProject "NWAuthVIP" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 819B40F322E8667800C200FD /* Build configuration list for PBXProject "NWAuthVIP" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 81AEF71B22E6F9E000AE040C;
-			productRefGroup = 81AEF72622E6F9E000AE040C /* Products */;
+			mainGroup = 819B40EF22E8667800C200FD;
+			productRefGroup = 819B40FA22E8667800C200FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81AEF72422E6F9E000AE040C /* NWAuthVIP */,
-				81AEF72D22E6F9E000AE040C /* NWAuthVIPTests */,
+				819B40F822E8667800C200FD /* NWAuthVIP */,
+				819B410122E8667800C200FD /* NWAuthVIPTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		81AEF72322E6F9E000AE040C /* Resources */ = {
+		819B40F722E8667800C200FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81AEF72C22E6F9E000AE040C /* Resources */ = {
+		819B410022E8667800C200FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,33 +192,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		81AEF72122E6F9E000AE040C /* Sources */ = {
+		819B40F422E8667800C200FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81AEF72A22E6F9E000AE040C /* Sources */ = {
+		819B40FE22E8667800C200FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AEF73422E6F9E000AE040C /* NWAuthVIPTests.swift in Sources */,
+				819B410822E8667800C200FD /* NWAuthVIPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		81AEF73122E6F9E000AE040C /* PBXTargetDependency */ = {
+		819B410522E8667800C200FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81AEF72422E6F9E000AE040C /* NWAuthVIP */;
-			targetProxy = 81AEF73022E6F9E000AE040C /* PBXContainerItemProxy */;
+			target = 819B40F822E8667800C200FD /* NWAuthVIP */;
+			targetProxy = 819B410422E8667800C200FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		81AEF73722E6F9E000AE040C /* Debug */ = {
+		819B410B22E8667800C200FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,12 +228,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -239,7 +239,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -268,9 +267,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -280,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		81AEF73822E6F9E000AE040C /* Release */ = {
+		819B410C22E8667800C200FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,12 +288,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -303,7 +299,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -326,19 +321,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		81AEF73A22E6F9E000AE040C /* Debug */ = {
+		819B410E22E8667800C200FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -350,20 +343,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NWAuthVIP/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nermeen.tomoum.NWAuthVIP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		81AEF73B22E6F9E000AE040C /* Release */ = {
+		819B410F22E8667800C200FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -375,51 +364,39 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NWAuthVIP/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nermeen.tomoum.NWAuthVIP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		81AEF73D22E6F9E000AE040C /* Debug */ = {
+		819B411122E8667800C200FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPSQ6HX6XK;
 				INFOPLIST_FILE = NWAuthVIPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nermeen.tomoum.NWAuthVIPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		81AEF73E22E6F9E000AE040C /* Release */ = {
+		819B411222E8667800C200FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MPSQ6HX6XK;
 				INFOPLIST_FILE = NWAuthVIPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nermeen.tomoum.NWAuthVIPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -427,34 +404,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81AEF71F22E6F9E000AE040C /* Build configuration list for PBXProject "NWAuthVIP" */ = {
+		819B40F322E8667800C200FD /* Build configuration list for PBXProject "NWAuthVIP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81AEF73722E6F9E000AE040C /* Debug */,
-				81AEF73822E6F9E000AE040C /* Release */,
+				819B410B22E8667800C200FD /* Debug */,
+				819B410C22E8667800C200FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81AEF73922E6F9E000AE040C /* Build configuration list for PBXNativeTarget "NWAuthVIP" */ = {
+		819B410D22E8667800C200FD /* Build configuration list for PBXNativeTarget "NWAuthVIP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81AEF73A22E6F9E000AE040C /* Debug */,
-				81AEF73B22E6F9E000AE040C /* Release */,
+				819B410E22E8667800C200FD /* Debug */,
+				819B410F22E8667800C200FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81AEF73C22E6F9E000AE040C /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */ = {
+		819B411022E8667800C200FD /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81AEF73D22E6F9E000AE040C /* Debug */,
-				81AEF73E22E6F9E000AE040C /* Release */,
+				819B411122E8667800C200FD /* Debug */,
+				819B411222E8667800C200FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 81AEF71C22E6F9E000AE040C /* Project object */;
+	rootObject = 819B40F022E8667800C200FD /* Project object */;
 }

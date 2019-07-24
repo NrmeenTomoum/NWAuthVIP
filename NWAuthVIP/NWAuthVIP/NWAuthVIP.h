@@ -2,7 +2,7 @@
 //  NWAuthVIP.h
 //  NWAuthVIP
 //
-//  Created by iOS on 7/23/19.
+//  Created by iOS on 7/24/19.
 //  Copyright © 2019 iOS. All rights reserved.
 //
 
