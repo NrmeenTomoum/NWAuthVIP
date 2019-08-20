@@ -7,31 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A7FA6FCD6187F19BDC772FD /* Pods_NWAuthVIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FAA3C562F1D9929D7614A1 /* Pods_NWAuthVIP.framework */; };
+		818D2AC122E87C5400C2AA95 /* NWAuthVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818D2AC022E87C5400C2AA95 /* NWAuthVIPTests.swift */; };
+		818D2AC322E87C5400C2AA95 /* NWAuthVIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */; };
+		81AA96A3230BDBE00046C41D /* RequestUtilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA96A0230BDBE00046C41D /* RequestUtilty.swift */; };
+		81AA96A4230BDBE00046C41D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA96A1230BDBE00046C41D /* APIClient.swift */; };
+		81AA96A5230BDBE00046C41D /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA96A2230BDBE00046C41D /* RequestService.swift */; };
+		81AA96A7230BE9FB0046C41D /* NetWorkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA96A6230BE9FB0046C41D /* NetWorkModel.swift */; };
 		81AEF73622E6F9E000AE040C /* NWAuthVIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AEF72822E6F9E000AE040C /* NWAuthVIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		818D2AC422E87C5400C2AA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81AEF71C22E6F9E000AE040C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81AEF72422E6F9E000AE040C;
+			remoteInfo = NWAuthVIP;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0A6ABBE43C40D6283AA60338 /* Pods-NWAuthVIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NWAuthVIP.release.xcconfig"; path = "Target Support Files/Pods-NWAuthVIP/Pods-NWAuthVIP.release.xcconfig"; sourceTree = "<group>"; };
+		35761A4CCEAC8CA159DE18CF /* Pods-NWAuthVIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NWAuthVIP.debug.xcconfig"; path = "Target Support Files/Pods-NWAuthVIP/Pods-NWAuthVIP.debug.xcconfig"; sourceTree = "<group>"; };
+		63FAA3C562F1D9929D7614A1 /* Pods_NWAuthVIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NWAuthVIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		818D2ABE22E87C5400C2AA95 /* NWAuthVIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWAuthVIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		818D2AC022E87C5400C2AA95 /* NWAuthVIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWAuthVIPTests.swift; sourceTree = "<group>"; };
+		818D2AC222E87C5400C2AA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81AA96A0230BDBE00046C41D /* RequestUtilty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestUtilty.swift; sourceTree = "<group>"; };
+		81AA96A1230BDBE00046C41D /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		81AA96A2230BDBE00046C41D /* RequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		81AA96A6230BE9FB0046C41D /* NetWorkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkModel.swift; sourceTree = "<group>"; };
 		81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NWAuthVIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AEF72822E6F9E000AE040C /* NWAuthVIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWAuthVIP.h; sourceTree = "<group>"; };
 		81AEF72922E6F9E000AE040C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		818D2ABB22E87C5400C2AA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818D2AC322E87C5400C2AA95 /* NWAuthVIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81AEF72222E6F9E000AE040C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7FA6FCD6187F19BDC772FD /* Pods_NWAuthVIP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		494075C096DAFBCA1DC3D96D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63FAA3C562F1D9929D7614A1 /* Pods_NWAuthVIP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		818D2ABF22E87C5400C2AA95 /* NWAuthVIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				818D2AC022E87C5400C2AA95 /* NWAuthVIPTests.swift */,
+				818D2AC222E87C5400C2AA95 /* Info.plist */,
+			);
+			path = NWAuthVIPTests;
+			sourceTree = "<group>";
+		};
+		81AA969F230BDB960046C41D /* NetWorkManger */ = {
+			isa = PBXGroup;
+			children = (
+				81AA96A1230BDBE00046C41D /* APIClient.swift */,
+				81AA96A2230BDBE00046C41D /* RequestService.swift */,
+				81AA96A0230BDBE00046C41D /* RequestUtilty.swift */,
+				81AA96A6230BE9FB0046C41D /* NetWorkModel.swift */,
+			);
+			path = NetWorkManger;
+			sourceTree = "<group>";
+		};
 		81AEF71B22E6F9E000AE040C = {
 			isa = PBXGroup;
 			children = (
 				81AEF72722E6F9E000AE040C /* NWAuthVIP */,
+				818D2ABF22E87C5400C2AA95 /* NWAuthVIPTests */,
 				81AEF72622E6F9E000AE040C /* Products */,
+				494075C096DAFBCA1DC3D96D /* Frameworks */,
+				9157B0DD8365C2F3D67A26AD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				81AEF72522E6F9E000AE040C /* NWAuthVIP.framework */,
+				818D2ABE22E87C5400C2AA95 /* NWAuthVIPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +114,20 @@
 		81AEF72722E6F9E000AE040C /* NWAuthVIP */ = {
 			isa = PBXGroup;
 			children = (
+				81AA969F230BDB960046C41D /* NetWorkManger */,
 				81AEF72822E6F9E000AE040C /* NWAuthVIP.h */,
 				81AEF72922E6F9E000AE040C /* Info.plist */,
 			);
 			path = NWAuthVIP;
+			sourceTree = "<group>";
+		};
+		9157B0DD8365C2F3D67A26AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35761A4CCEAC8CA159DE18CF /* Pods-NWAuthVIP.debug.xcconfig */,
+				0A6ABBE43C40D6283AA60338 /* Pods-NWAuthVIP.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -66,10 +144,29 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		818D2ABD22E87C5400C2AA95 /* NWAuthVIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818D2AC822E87C5400C2AA95 /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */;
+			buildPhases = (
+				818D2ABA22E87C5400C2AA95 /* Sources */,
+				818D2ABB22E87C5400C2AA95 /* Frameworks */,
+				818D2ABC22E87C5400C2AA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				818D2AC522E87C5400C2AA95 /* PBXTargetDependency */,
+			);
+			name = NWAuthVIPTests;
+			productName = NWAuthVIPTests;
+			productReference = 818D2ABE22E87C5400C2AA95 /* NWAuthVIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		81AEF72422E6F9E000AE040C /* NWAuthVIP */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81AEF73922E6F9E000AE040C /* Build configuration list for PBXNativeTarget "NWAuthVIP" */;
 			buildPhases = (
+				DEBA3F757D162DD89848C425 /* [CP] Check Pods Manifest.lock */,
 				81AEF72022E6F9E000AE040C /* Headers */,
 				81AEF72122E6F9E000AE040C /* Sources */,
 				81AEF72222E6F9E000AE040C /* Frameworks */,
@@ -94,8 +191,12 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = iOS;
 				TargetAttributes = {
+					818D2ABD22E87C5400C2AA95 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					81AEF72422E6F9E000AE040C = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -112,11 +213,19 @@
 			projectRoot = "";
 			targets = (
 				81AEF72422E6F9E000AE040C /* NWAuthVIP */,
+				818D2ABD22E87C5400C2AA95 /* NWAuthVIPTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		818D2ABC22E87C5400C2AA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81AEF72322E6F9E000AE040C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,17 +235,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DEBA3F757D162DD89848C425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NWAuthVIP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		818D2ABA22E87C5400C2AA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818D2AC122E87C5400C2AA95 /* NWAuthVIPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81AEF72122E6F9E000AE040C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AA96A7230BE9FB0046C41D /* NetWorkModel.swift in Sources */,
+				81AA96A3230BDBE00046C41D /* RequestUtilty.swift in Sources */,
+				81AA96A5230BDBE00046C41D /* RequestService.swift in Sources */,
+				81AA96A4230BDBE00046C41D /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		818D2AC522E87C5400C2AA95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81AEF72422E6F9E000AE040C /* NWAuthVIP */;
+			targetProxy = 818D2AC422E87C5400C2AA95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		818D2AC622E87C5400C2AA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPSQ6HX6XK;
+				INFOPLIST_FILE = NWAuthVIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nermeen.tomoum.NWAuthVIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		818D2AC722E87C5400C2AA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPSQ6HX6XK;
+				INFOPLIST_FILE = NWAuthVIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nermeen.tomoum.NWAuthVIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		81AEF73722E6F9E000AE040C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -261,7 +453,9 @@
 		};
 		81AEF73A22E6F9E000AE040C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35761A4CCEAC8CA159DE18CF /* Pods-NWAuthVIP.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -279,6 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nermeen.tomoum.NWAuthVIP;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,7 +481,9 @@
 		};
 		81AEF73B22E6F9E000AE040C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6ABBE43C40D6283AA60338 /* Pods-NWAuthVIP.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -312,6 +509,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		818D2AC822E87C5400C2AA95 /* Build configuration list for PBXNativeTarget "NWAuthVIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818D2AC622E87C5400C2AA95 /* Debug */,
+				818D2AC722E87C5400C2AA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		81AEF71F22E6F9E000AE040C /* Build configuration list for PBXProject "NWAuthVIP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
