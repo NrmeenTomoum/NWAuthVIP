@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NWAuthVIP"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "NWAuthVIP"
  spec.swift_version = '5.0'
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
     spec.platform     = :ios, "12.2"
 
 
-  spec.source       = { :git => "https://github.com/NrmeenTomoum/NWAuthVIP.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/NrmeenTomoum/NWAuthVIP.git", :tag => "1.1.0" }
 
   spec.source_files  = "NWAuthVIP/**/*.{h,m,swift}"
 
