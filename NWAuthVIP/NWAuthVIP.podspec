@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Nermeen" => "nrmeen.tomoum@alumni.fci-cu.edu.eg" }
 
     spec.platform     = :ios, "12.2"
-
+ spec.dependency 'Alamofire', '~> 5.0.0-beta.5'
 
   spec.source       = { :git => "https://github.com/NrmeenTomoum/NWAuthVIP.git", :tag => "1.1.0" }
 
